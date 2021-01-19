@@ -61,6 +61,63 @@ body {
   height: 55px;
 }
 
+.menu_m{
+  background-image: url(images/menu.svg);
+  background-color: transparent;
+  width: 58px;
+  height: 41px;
+  border: none;
+  box-shadow: none;
+}
+
+.dropdown-backdrop{
+  background-color: var(--szary);
+}
+
+.menu_ul{
+  background-color: #999999;
+  border: none;
+  box-shadow: none;
+  border-radius: 40px;
+  width: 95vw;
+  height: 45vh;
+  position: fixed !important;
+  bottom: 60px !important;
+  left: 2.5vw;
+  top:unset !important;
+}
+.menu_li{
+  background-color: black;
+  border: none;
+  box-shadow: none;
+  border-radius: 40px;
+  height: 6.5vh;
+  margin-left: auto;
+  margin-right: auto;
+  width: 85vw;
+  margin-bottom:5vh;
+}
+
+.pi{
+  margin-top: 1.6vh;
+}
+.przycisk_up{
+  margin-top: 1vw;
+  width: 60px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.menu_li>a{
+  padding-top: 2vh !important;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  border: none;
+  box-shadow: none;
+  color: white !important;
+  
+}
 .menu_desktop{
   width: 95vw;
 }
@@ -210,6 +267,32 @@ margin-top: 3px;
   font-size: 30px;
   color: black;
 }
+
+.osiem_r {
+  margin-bottom: 5vw;
+}
+.osiem_n {
+  font-family: Tahoma;
+  font-weight: 600;
+  font-size: 20px;
+  color: black;
+}
+.osiem_o {
+  font-family: Tahoma;
+  font-weight: 100;
+  font-size: 14px;
+  color: black;
+  width: 25vw;
+  margin-right: 0px;
+  float: left;
+}
+
+.osiem_z{
+  float:right;
+  width: 5vw;
+}
+
+
 
 .tekst {
   font-family: Tahoma;
@@ -435,7 +518,8 @@ hr {
 .trzeci,
 .cztery,
 .piec,
-.szesc {
+.szesc,
+.osiem  {
   padding: 15% 4% 15% 4%;
 }
   .napis {
@@ -544,6 +628,7 @@ hr {
 
   .szesc {
     padding: 10% 4% 10% 4%;
+    height: 40vw;
   }
 
   .szesc>div{
@@ -552,7 +637,7 @@ hr {
 .szesc>div > p {
   font-family: Tahoma;
   font-weight: 100;
-  font-size: 36px;
+  font-size: 30px;
   color: black;
   text-align: left;
   margin-bottom: 10%;
@@ -563,7 +648,7 @@ hr {
 .kontakt{
     float: right;
     margin-right: 10vw;
-    margin-top: 1vw;
+    margin-top: 7vw;
 }
 
 .linia{
@@ -594,6 +679,38 @@ hr {
     padding-left: 2%;
     padding-right: 2%;
 }
+.osiem_t {
+  font-family: Tahoma;
+  font-weight: 900;
+  font-size: 22px;
+  color: black;
+}
+
+.osiem_n {
+  font-family: Tahoma;
+  font-weight: 600;
+  font-size: 17px;
+  color: black;
+  float: left;
+}
+.osiem_o {
+  font-family: Tahoma;
+  font-weight: 100;
+  font-size: 11px;
+  color: black;
+  width: 25vw;
+  margin-right: 0px;
+  float: left;
+}
+
+.osiem_z{
+  float:right;
+  width: 4vw;
+}
+
+.osiem_c{
+  width: 95vw;
+}
 
   
 }
@@ -611,6 +728,7 @@ hr {
   .opis_zdj_1{
     margin-top: 3vw;
   }
+  
 }
 
 @media screen and (min-width: 1100px) {
@@ -681,6 +799,20 @@ hr {
   .tekst_opis{
     font-size: 18px;
   }
+  .osiem_t {
+    font-size: 30px;
+  }
+  .osiem_n {
+    font-size: 20px;
+  }
+  .osiem_o {
+    font-size: 14px;
+  }
+  
+  .osiem_z{
+    float:right;
+    width: 5vw;
+  }
 }
 
 @media screen and (min-width: 1300px) {
@@ -688,7 +820,8 @@ hr {
 .trzeci,
 .cztery,
 .piec,
-.szesc {
+.szesc,
+.osiem  {
   padding: 10% 4% 10% 4%;
 }
   .napis {
@@ -748,6 +881,11 @@ hr {
   }
   .cecha>.tlo>img{
     width: 50%;
+  }
+  .szesc>div > p {
+
+    font-size: 36px;
+    
   }
 }
 
