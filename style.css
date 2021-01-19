@@ -119,7 +119,7 @@ body {
   
 }
 .menu_desktop{
-  width: 95vw;
+  width: 90vw !important;
 }
 
 .menu_a{
