@@ -813,6 +813,18 @@ hr {
     float:right;
     width: 5vw;
   }
+  .szesc>div{
+    height: 8vw;
+    margin-bottom: 0px;
+  }
+  .szesc{
+    height: 30vw;
+  }
+
+  .kontakt{
+    margin-top: 2vw;
+    margin-bottom: 0px;
+}
 }
 
 @media screen and (min-width: 1300px) {
@@ -884,8 +896,11 @@ hr {
   }
   .szesc>div > p {
 
-    font-size: 36px;
+    font-size: 30px;
     
+  }
+  .szesc{
+    height: 25vw;
   }
 }
 
@@ -969,6 +984,12 @@ hr {
   .tekst_opis{
     font-size: 20px;
   }
+
+  .szesc>div > p {
+
+    font-size: 36px;
+    
+  }
 }
 
 @media screen and (min-width: 2100px) {
@@ -1017,6 +1038,12 @@ hr {
     width:6vw;
     display:flex;
     margin-top: 0.2vw;
+  }
+
+  .szesc>div > p {
+
+    font-size: 50px;
+    
   }
 
   
